@@ -12,7 +12,7 @@ public class practice1 {
         //Create a new Chromedriver object
         WebDriver driver = new ChromeDriver();
         //Using driver object and GET method, open the browser and a specific page
-        driver.get("https://oscarvalerio.github.io/");
+        driver.get("https://oscarvalerio.github.io/seleniumExercises/practice1.html");
         //Get the title and URL of the page
         String pageTitle = driver.getTitle();
         String pageURL = driver.getCurrentUrl();
